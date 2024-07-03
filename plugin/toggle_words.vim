@@ -137,6 +137,6 @@ def ToggleWord()		# {{{
 
 enddef		# }}}
 
-command! -nargs=0 ToggleWord :call <SID>ToggleWord()
+command! -nargs=0 ToggleWord call <SID>ToggleWord()
 
 # vim: ts=4 sw=4 noet fdm=marker
